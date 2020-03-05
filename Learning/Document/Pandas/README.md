@@ -21,7 +21,7 @@
 - Kiểm tra thư viện pandas trong môi trường:
      > $ conda list
 
-![list.png](attachment:list.png)
+![list.png](https://github.com/dtrungphong/Machine_Learning_TLU/blob/master/Learning/Document/Pandas/sup/imag/list.png)
 
 ## 3. Một số ví dụ về hàm trong pandas (Example of pandas functions):
 

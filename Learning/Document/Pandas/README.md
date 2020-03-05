@@ -68,19 +68,15 @@ house_data_df.head(5)
 
 <div>
 <style scoped>
- 
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-    
     .dataframe tbody tr th {
         vertical-align: top;
     }
-    
     .dataframe thead th {
         text-align: right;
-    }
-    
+    }   
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1403,7 +1399,7 @@ new_dt_df_ap
 new_dt_df_ap.to_csv('./sup/data/data_new')
 ```
 
-![data_.png](attachment:data_.png)
+![data_.png](https://github.com/dtrungphong/Machine_Learning_TLU/blob/master/Learning/Document/Pandas/sup/imag/data_.png)
 
 ## 4. Nguồn tham khảo (Reference source):
 

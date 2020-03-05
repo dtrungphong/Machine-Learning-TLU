@@ -55,6 +55,7 @@ house_data_df = pd.read_csv('./sup/data/house_data.csv')
 3.2. In ra bản dữ liệu của dataframe với n số lượng phần tử đầu tiên ta dùng hàm **.head()** ngược lại là hàm **.tail()**
  - Tham khảo tham số của hàm [head][head_] hoặc hàm [tail][tail_]
  - Ví dụ về sử dụng hàm head:
+ 
 [head_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html?highlight=pandas%20head#pandas.DataFrame.head
 [tail_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html?highlight=pandas%20tail#pandas.DataFrame.tail
 
@@ -226,6 +227,7 @@ house_data_df.head(5)
 3.3. Lấy thông tin dữ liệu của dataframe với hàm **.info()** và xem kích thước dữ liệu với hàm **.shape**
  - Tham khảo về hàm [info][info_] hoặc hàm [shape][shape_]
  - Ví dụ về sử dụng hàm info:
+ 
 [info_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html?highlight=info#pandas.DataFrame.info
 [shape_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.shape.html?highlight=shape#pandas.DataFrame.shape
 
@@ -348,19 +350,6 @@ house_data_df[['Id','Street']].tail(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -404,6 +393,7 @@ house_data_df[['Id','Street']].tail(5)
  - Lấy bản ghi có điều kiện ta sẽ tìm bản ghi phù hợp điều kiện của cột đó
  - Tham khảo hướng dẫn [tại đây][link_1]
  - Ví dụ về lấy bản ghi có điều kiện **Id** nằm trong đoạn từ 1500 đến 1510:
+ 
 [link_1]: https://thispointer.com/python-pandas-select-rows-in-dataframe-by-conditions-on-multiple-columns/
 
 
@@ -416,19 +406,7 @@ dt_df_fr_1500_1510
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -732,6 +710,7 @@ dt_df_fr_1500_1510
  - Thêm cột mới có giá
    - Tham khảo [tại đây][link_1]
    - Ví dụ thêm cột mới có giá trị rỗng
+   
 [link_1]: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html
 
 
@@ -744,19 +723,6 @@ dt_df_fr_1500_1510
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -849,19 +815,6 @@ dt_df_fr_1500_1510
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -978,19 +931,6 @@ dt_df_fr_1500_1505
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1053,6 +993,7 @@ dt_df_fr_1500_1505
  - Sắp xếp dữ liệu:
    - Tham khảo [tại đây][link_1]
    - Ví dụ về sắp xếp: 
+   
 [link_1]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html?highlight=sort_value
 
 
@@ -1065,19 +1006,6 @@ sort_dt_df_fr_1500_1505
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1140,6 +1068,7 @@ sort_dt_df_fr_1500_1505
  - Nối hai dataframe với nhau:
    - Tham khảo [tại đây][link_1]
    - Ví dụ:
+   
 [link_1]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.append.html?highlight=append#pandas.DataFrame.append
 
 
@@ -1153,19 +1082,6 @@ dt_df_fr_1480_1485
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1228,20 +1144,6 @@ new_dt_df_ap
 
 
 <div>
-<style scoped>
- 
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-    
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1382,6 +1284,7 @@ new_dt_df_ap
 
  - Tham khảo [tại đây][link]
  - Ví dụ:
+ 
 [link]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html?highlight=to_csv#pandas.DataFrame.to_csv
 
 
@@ -1396,6 +1299,7 @@ new_dt_df_ap.to_csv('./sup/data/data_new')
 1. Hướng dẫn về sử dụng pandas tiếng Việt [link1][1_] | [link2][2_].
 2. [Trang Chủ][3_] pandas.
 3. Các bạn có thể yêu cầu chỉnh sửa hoặc đóng góp thêm cho bài làm hoàn thiện hơn qua: dtphong010199@gmail.com
+
 [3_]: https://pandas.pydata.org/
 [1_]: https://labs.septeni-technology.jp/category/pandas/
 [2_]: https://nguyenvanhieu.vn/thu-vien-pandas-python/

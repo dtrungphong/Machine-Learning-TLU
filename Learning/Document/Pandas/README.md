@@ -918,14 +918,7 @@ dt_df_fr_1500_1505 = dt_df_fr_1500_1510[(dt_df_fr_1500_1510['Id']<=1505)]
 dt_df_fr_1500_1505['n_column']= dt_df_fr_1500_1505['LotShape']=='Reg'
 dt_df_fr_1500_1505
 ```
-
-    /home/supercomputer-ailab/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:2: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       
-
 
 
 

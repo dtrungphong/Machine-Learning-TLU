@@ -55,8 +55,8 @@ house_data_df = pd.read_csv('./sup/data/house_data.csv')
 3.2. In ra bản dữ liệu của dataframe với n số lượng phần tử đầu tiên ta dùng hàm **.head()** ngược lại là hàm **.tail()**
  - Tham khảo tham số của hàm [head][head_] hoặc hàm [tail][tail_]
  - Ví dụ về sử dụng hàm head:
- [head_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html?highlight=pandas%20head#pandas.DataFrame.head
- [tail_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html?highlight=pandas%20tail#pandas.DataFrame.tail
+[head_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html?highlight=pandas%20head#pandas.DataFrame.head
+[tail_]: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html?highlight=pandas%20tail#pandas.DataFrame.tail
 
 
 ```python
@@ -68,17 +68,19 @@ house_data_df.head(5)
 
 <div>
 <style scoped>
+ 
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
+    
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
+    
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1241,10 +1243,11 @@ new_dt_df_ap
 
 <div>
 <style scoped>
+ 
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
+    
     .dataframe tbody tr th {
         vertical-align: top;
     }

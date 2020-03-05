@@ -391,8 +391,8 @@ house_data_df[['Id','Street']].tail(5)
 
 
  - Lấy bản ghi có điều kiện ta sẽ tìm bản ghi phù hợp điều kiện của cột đó
- - Tham khảo hướng dẫn [tại đây][link_1]
- - Ví dụ về lấy bản ghi có điều kiện **Id** nằm trong đoạn từ 1500 đến 1510:
+   - Tham khảo hướng dẫn [tại đây][link_1]
+   - Ví dụ về lấy bản ghi có điều kiện **Id** nằm trong đoạn từ 1500 đến 1510:
  
 [link_1]: https://thispointer.com/python-pandas-select-rows-in-dataframe-by-conditions-on-multiple-columns/
 
